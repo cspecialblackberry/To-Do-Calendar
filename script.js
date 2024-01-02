@@ -71,42 +71,48 @@ textAreaArray.forEach(setSavedTasks)
 
 currentDateDisplayP.innerHTML = dayjs().format('DD/MM/YYYY')
 
+const saveTask = (event) => {
+    console.log(event)
+}
+
+hour9Button.addEventListener('click', saveTask)
+
+
 const saveTask9 = (event) => {
     localStorage.setItem('Task' + 9, hour9TextArea.value)
 }
 
 const saveTask10 = (event) => {
-    localStorage.setItem('Task 10', hour10TextArea.value)
+    localStorage.setItem('Task' + 10, hour10TextArea.value)
 } 
 
 const saveTask11 = (event) => {
-    localStorage.setItem('Task 11', hour11TextArea.value)
+    localStorage.setItem('Task' + 11, hour11TextArea.value)
 } 
 
 const saveTask12 = (event) => {
-    localStorage.setItem('Task 12', hour12TextArea.value)
+    localStorage.setItem('Task' + 12, hour12TextArea.value)
 } 
 
 const saveTask1 = (event) => {
-    localStorage.setItem('Task 1', hour1TextArea.value)
+    localStorage.setItem('Task' + 1, hour1TextArea.value)
 } 
 
 const saveTask2 = (event) => {
-    localStorage.setItem('Task 2', hour2TextArea.value)
+    localStorage.setItem('Task' + 2, hour2TextArea.value)
 } 
 
 const saveTask3 = (event) => {
-    localStorage.setItem('Task 3', hour3TextArea.value)
+    localStorage.setItem('Task' + 3, hour3TextArea.value)
 } 
 
 const saveTask4 = (event) => {
-    localStorage.setItem('Task 4', hour4TextArea.value)
+    localStorage.setItem('Task' + 4, hour4TextArea.value)
 } 
 
 const saveTask5 = (event) => {
-    localStorage.setItem('Task 5', hour5TextArea.value)
+    localStorage.setItem('Task' + 5, hour5TextArea.value)
 } 
-// localStorage.setItem('hour '+ i + ' task', 'jif')
 
 hour9Button.addEventListener('click', saveTask9)
 hour10Button.addEventListener('click', saveTask10)

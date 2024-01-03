@@ -16,4 +16,4 @@ N/A
 Please refer to the MIT license in the repository.
 
 ## Screenshot
-[Screenshot of To-Do-Calendar application](<Screenshot (5).png>)
+[Screenshot of To-Do-Calendar application](<assets/Screenshot (5).png>)
